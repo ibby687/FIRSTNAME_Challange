@@ -8,3 +8,8 @@ $ sudo ufw app list
 $ sudo ufw allow 'Apache'
 $ sudo ufw status
 Checking your Web Server
+$ sudo systemctl status apache2
+use your instance public ip address as host: my ip is 18.220.245.172 check this in web browser you will get default apache2 web page
+
+
+
