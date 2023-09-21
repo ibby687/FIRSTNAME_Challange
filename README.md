@@ -60,8 +60,11 @@ Save the file Ctrl+O and Ctrl+X
 Let’s enable the file with the a2ensite tool:
 
 $ sudo a2ensite your_domain.conf
+
 $ sudo a2dissite 000-default.conf
+
 $ sudo apache2ctl configtest
+
 $ sudo systemctl restart apache2
 
 http://18.220.245.172   in web browser
